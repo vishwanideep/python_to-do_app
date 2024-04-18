@@ -1,6 +1,9 @@
 user_prompt = "Enter a To-Do: "
 
-while 2>1:
-    text = input(user_prompt)
+todos =[]
 
-print(text)
+while True:
+    todo = input(user_prompt)
+    todos.append(todo)
+    print(todos)
+
