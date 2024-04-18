@@ -1,3 +1,6 @@
 user_prompt = "Enter a To-Do: "
-text = input(user_prompt)
+
+while 2>1:
+    text = input(user_prompt)
+
 print(text)
